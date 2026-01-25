@@ -1,0 +1,22 @@
+.mountains{
+    width: 500px;
+    height: 300x;
+    background-color:azure;
+    align-items: center ;
+}
+
+
+.snow{
+    width: 500px;
+    height: 300px;
+    background-color:aquamarine;
+    align-items: center;
+}
+
+
+.sunset{
+    width: 500px;
+    height: 300px;
+    background-color:peachpuff;
+    align-items: center;
+}

@@ -4,6 +4,9 @@ import SmartComponent from './components/SmartComponents/SmartComponent'
 import DumbUser from './components/DumbComponents/DumbUser'
 import SmartUser from './components/SmartComponents/SmartUser'
 import NameComponent from './components/SmartComponents/NameComponent'
+import ConditionalRendering from './components/SmartComponents/ConditionalRendering'
+import Name from './components/SmartComponents/NameComponent'
+import NameRendering from './components/SmartComponents/NameRendering'
 
 function App() {
   
@@ -11,11 +14,14 @@ function App() {
     <>
       <h1>Finally , We started learning .</h1>
 
-      <DumbComponent userName = "Sakshi Verma"/>
+      {/* <DumbComponent userName = "Sakshi Verma"/>
       <DumbUser dumbName = "Neeshu"></DumbUser>
        <NameComponent SmartUser ="Sakshi" ></NameComponent>
       <SmartComponent/>
-      <SmartUser></SmartUser>
+      <SmartUser></SmartUser> 
+      <ConditionalRendering/>*/}
+     <NameRendering/>
+
     </>
   )
 }
