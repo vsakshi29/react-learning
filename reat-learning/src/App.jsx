@@ -7,6 +7,7 @@ import NameComponent from './components/SmartComponents/NameComponent'
 import ConditionalRendering from './components/SmartComponents/ConditionalRendering'
 import Name from './components/SmartComponents/NameComponent'
 import NameRendering from './components/SmartComponents/NameRendering'
+import ImageRendering from './components/SmartComponents/ImageRendering'
 
 function App() {
   
@@ -19,8 +20,9 @@ function App() {
        <NameComponent SmartUser ="Sakshi" ></NameComponent>
       <SmartComponent/>
       <SmartUser></SmartUser> 
-      <ConditionalRendering/>*/}
-     <NameRendering/>
+      <ConditionalRendering/>
+     <NameRendering/>*/}
+     <ImageRendering/>
 
     </>
   )
