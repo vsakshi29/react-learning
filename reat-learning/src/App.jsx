@@ -10,12 +10,13 @@ import NameRendering from './components/SmartComponents/NameRendering'
 import ImageRendering from './components/SmartComponents/ImageRendering'
 import PageChange from './components/SmartComponents/pageChange'
 import MultipleImageRendering from './components/SmartComponents/MultipleImageRenderig'
+import StateImageRendering from './components/SmartComponents/StateImageRendering'
 
 function App() {
   
   return (
     <>
-      <h1>Finally , We started learning .</h1>
+      {/* <h1>Finally , We started learning .</h1> */}
 
       {/* <DumbComponent userName = "Sakshi Verma"/>
       <DumbUser dumbName = "Neeshu"></DumbUser>
@@ -25,8 +26,9 @@ function App() {
       <ConditionalRendering/>
      <NameRendering/>
      <ImageRendering/>
-     <PageChange/>*/}
-     <MultipleImageRendering/>
+     <PageChange/>
+     <MultipleImageRendering/>*/}
+     <StateImageRendering/>
 
 
     </>
