@@ -11,6 +11,7 @@ import ImageRendering from './components/SmartComponents/ImageRendering'
 import PageChange from './components/SmartComponents/pageChange'
 import MultipleImageRendering from './components/SmartComponents/MultipleImageRenderig'
 import StateImageRendering from './components/SmartComponents/StateImageRendering'
+import Loop from './components/SmartComponents/Looping/Loop'
 
 function App() {
   
@@ -28,7 +29,7 @@ function App() {
      <ImageRendering/>
      <PageChange/>
      <MultipleImageRendering/>*/}
-     <StateImageRendering/>
+     <Loop/>
 
 
     </>
