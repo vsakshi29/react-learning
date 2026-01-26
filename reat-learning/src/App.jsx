@@ -8,6 +8,7 @@ import ConditionalRendering from './components/SmartComponents/ConditionalRender
 import Name from './components/SmartComponents/NameComponent'
 import NameRendering from './components/SmartComponents/NameRendering'
 import ImageRendering from './components/SmartComponents/ImageRendering'
+import PageChange from './components/SmartComponents/pageChange'
 
 function App() {
   
@@ -21,8 +22,9 @@ function App() {
       <SmartComponent/>
       <SmartUser></SmartUser> 
       <ConditionalRendering/>
-     <NameRendering/>*/}
-     <ImageRendering/>
+     <NameRendering/>
+     <ImageRendering/>*/}
+     <PageChange/>
 
     </>
   )

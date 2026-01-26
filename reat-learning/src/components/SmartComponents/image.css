@@ -20,3 +20,12 @@
     background-color:peachpuff;
     align-items: center;
 }
+
+
+.card{
+    width: 550px;
+    height: 550px;
+    border-radius: 10%;
+    background-color:pink;
+    border-color: wheat;
+}

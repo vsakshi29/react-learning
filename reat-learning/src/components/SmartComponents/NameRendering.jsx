@@ -12,7 +12,7 @@ function NameRendering() {
 
   return (
     <>
-      <h2>Image with name: {image == images.Mountains ? "   Mountains" : image == images.Snow ? "  Snow" : "  Sunset"}</h2>
+      <h2>Image with name: {image == images.Mountains ? "Mountains" : image == images.Snow ?  "Snow" : "Sunset"}</h2>
 
       <img src={image} alt="selected" width="700 height= 700" />
 
