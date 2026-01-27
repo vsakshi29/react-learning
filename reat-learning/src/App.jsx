@@ -12,6 +12,7 @@ import PageChange from './components/SmartComponents/pageChange'
 import MultipleImageRendering from './components/SmartComponents/MultipleImageRenderig'
 import StateImageRendering from './components/SmartComponents/StateImageRendering'
 import Loop from './components/SmartComponents/Looping/Loop'
+import FruitsCart from './components/SmartComponents/Looping/FruitsCart'
 
 function App() {
   
@@ -28,8 +29,9 @@ function App() {
      <NameRendering/>
      <ImageRendering/>
      <PageChange/>
-     <MultipleImageRendering/>*/}
-     <Loop/>
+     <MultipleImageRendering/>
+     <Loop/>*/}
+     <FruitsCart/>
 
 
     </>
