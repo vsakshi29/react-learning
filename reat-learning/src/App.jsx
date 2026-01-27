@@ -13,6 +13,9 @@ import MultipleImageRendering from './components/SmartComponents/MultipleImageRe
 import StateImageRendering from './components/SmartComponents/StateImageRendering'
 import Loop from './components/SmartComponents/Looping/Loop'
 import FruitsCart from './components/SmartComponents/Looping/FruitsCart'
+import NetworkCallUsingFetch from './components/Networking/NetworkCallUsingFetch'
+import APICallUsingFetch from './components/Networking/APICallUsingFetch'
+import ReplicaAPICallFetch from './components/Networking/ReplicaAPICallUsingFetch'
 
 function App() {
   
@@ -31,7 +34,11 @@ function App() {
      <PageChange/>
      <MultipleImageRendering/>
      <Loop/>*/}
-     <FruitsCart/>
+     {/* <FruitsCart/> */}
+     {/* <NetworkCallUsingFetch/> 
+     <APICallUsingFetch /> */}
+     <ReplicaAPICallFetch/>
+
 
 
     </>
