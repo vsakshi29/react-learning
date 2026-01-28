@@ -18,7 +18,7 @@ import { useEffect, useState } from "react";
 
 function APICallUsingFetch(){
     
-    const [results, setResults] = useState([])
+    const [result, setResults] = useState([])
     const [searchText, setSearchText] = useState("nature")
     const url = `https://api.unsplash.com/search/photos?query=${searchText}&client_id=AZCKortI4P-o-KBp7HxoiT6en2l60HSfnAi_iArjQCo`
 
@@ -49,7 +49,7 @@ function APICallUsingFetch(){
         style={{marginBottom: "16px", padding : "8px", width: "200px"}}
         />
 
-        {results.map( (object, index) => 
+        {result.map( (object, index) => 
         <img key={index} 
         src={object.urls.small}
          width="150" height="150" 

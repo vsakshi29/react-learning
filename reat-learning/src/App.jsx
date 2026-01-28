@@ -21,6 +21,7 @@ import UserList from './Practice-Test/DumbComponet/UserList'
 import PropsPassingComponent from './Practice-Test/SmartComponent/PropsPassingComponent'
 import LogInStatus from './Practice-Test/SmartComponent/LogInStatus'
 import CreateCounterForTrackCount from './Practice-Test/SmartComponent/CreateCounterForTrackCount'
+import FetchDataFromAPI from './Practice-Test/SmartComponent/FetchDataFromAPI'
 
 function App() {
   // const name = ["Sakshi" , "Neesshu" , "Isha" , "Yaash" , "Rahul"]
@@ -40,9 +41,10 @@ function App() {
      <MultipleImageRendering/>
      <Loop/>*/}
      {/* <FruitsCart/> */}
-     {/* <NetworkCallUsingFetch/> 
+     {/* 
      <APICallUsingFetch /> 
      <ReplicaAPICallFetch/>*/}
+     {/* <NetworkCallUsingFetch></NetworkCallUsingFetch> */}
      
       {/*<UserGender/>*/}
 
@@ -51,7 +53,9 @@ function App() {
     {/* <PropsPassingComponent/>  */}
 
     {/* <LogInStatus/> */}
-    <CreateCounterForTrackCount/>
+    {/* <CreateCounterForTrackCount/>  */}
+
+    <FetchDataFromAPI/>
 
     </>
   )
