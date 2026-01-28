@@ -16,6 +16,7 @@ import FruitsCart from './components/SmartComponents/Looping/FruitsCart'
 import NetworkCallUsingFetch from './components/Networking/NetworkCallUsingFetch'
 import APICallUsingFetch from './components/Networking/APICallUsingFetch'
 import ReplicaAPICallFetch from './components/Networking/ReplicaAPICallUsingFetch'
+import UserGender from './Practice-Test/SmartComponent/UserGender'
 
 function App() {
   
@@ -36,8 +37,10 @@ function App() {
      <Loop/>*/}
      {/* <FruitsCart/> */}
      {/* <NetworkCallUsingFetch/> 
-     <APICallUsingFetch /> */}
-     <ReplicaAPICallFetch/>
+     <APICallUsingFetch /> 
+     <ReplicaAPICallFetch/>*/}
+
+     <UserGender/>
 
 
 
