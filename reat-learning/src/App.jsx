@@ -17,6 +17,7 @@ import NetworkCallUsingFetch from './components/Networking/NetworkCallUsingFetch
 import APICallUsingFetch from './components/Networking/APICallUsingFetch'
 import ReplicaAPICallFetch from './components/Networking/ReplicaAPICallUsingFetch'
 import UserGender from './Practice-Test/SmartComponent/UserGender'
+import UserList from './Practice-Test/DumbComponet/UserList'
 
 function App() {
   
@@ -39,10 +40,9 @@ function App() {
      {/* <NetworkCallUsingFetch/> 
      <APICallUsingFetch /> 
      <ReplicaAPICallFetch/>*/}
+      {/*<UserGender/>*/}
 
-     <UserGender/>
-
-
+     <UserList UserName ></UserList>
 
     </>
   )
