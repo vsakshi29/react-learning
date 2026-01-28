@@ -6,12 +6,12 @@ It should only render the UI (no state, no logic)
 UserList is an Arrays used it [“Neeshu Kumar”, “Sakshi Verma”, “Rahul Kumar”, “Yash Verma” , “Isha Verma”] pass this list as props and present it on UI.*/
 
 
-function UserList () {
-  const name = ["Sakshi" , "Neesshu" , "Isha" , "Yaash" , "Rahul"]
+function UserList (props) {
+  
     return (
 <>
-    {name.map((val ,index ) =>
-     <h1>{index} {val}
+    {props.name.map((val , index ) =>
+     <h1>{index + 1} {val}
    </h1>
  )}
 </>

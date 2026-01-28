@@ -18,9 +18,12 @@ import APICallUsingFetch from './components/Networking/APICallUsingFetch'
 import ReplicaAPICallFetch from './components/Networking/ReplicaAPICallUsingFetch'
 import UserGender from './Practice-Test/SmartComponent/UserGender'
 import UserList from './Practice-Test/DumbComponet/UserList'
+import PropsPassingComponent from './Practice-Test/SmartComponent/PropsPassingComponent'
+import LogInStatus from './Practice-Test/SmartComponent/LogInStatus'
+import CreateCounterForTrackCount from './Practice-Test/SmartComponent/CreateCounterForTrackCount'
 
 function App() {
-  
+  // const name = ["Sakshi" , "Neesshu" , "Isha" , "Yaash" , "Rahul"]
   return (
     <>
       {/* <h1>Finally , We started learning .</h1> */}
@@ -40,9 +43,15 @@ function App() {
      {/* <NetworkCallUsingFetch/> 
      <APICallUsingFetch /> 
      <ReplicaAPICallFetch/>*/}
+     
       {/*<UserGender/>*/}
 
-     <UserList UserName ></UserList>
+    {/* <UserList name = {name} /> */}
+
+    {/* <PropsPassingComponent/>  */}
+
+    {/* <LogInStatus/> */}
+    <CreateCounterForTrackCount/>
 
     </>
   )

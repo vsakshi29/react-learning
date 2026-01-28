@@ -12,7 +12,7 @@ function ImageRendering() {
 
          return (
     <>
-      <h1> Display image with name: {photo == photos.animal ? "Animal" : photo == photos.birds? "  bird" : "  nature"}</h1>
+      <h1> Display image with name: {photo == photos.animal ? "Animal" : photo == photos.birds ? "  bird" : "  nature"}</h1>
 
       <img src={photo} alt="selected" width="900 height= 600" />
 
