@@ -22,6 +22,7 @@ import PropsPassingComponent from './Practice-Test/SmartComponent/PropsPassingCo
 import LogInStatus from './Practice-Test/SmartComponent/LogInStatus'
 import CreateCounterForTrackCount from './Practice-Test/SmartComponent/CreateCounterForTrackCount'
 import FetchDataFromAPI from './Practice-Test/SmartComponent/FetchDataFromAPI'
+import AxiosExample from './components/Networking/AxiosExample'
 
 function App() {
   // const name = ["Sakshi" , "Neesshu" , "Isha" , "Yaash" , "Rahul"]
@@ -55,7 +56,8 @@ function App() {
     {/* <LogInStatus/> */}
     {/* <CreateCounterForTrackCount/>  */}
 
-    <FetchDataFromAPI/>
+    {/* <FetchDataFromAPI/> */}
+      <AxiosExample/>
 
     </>
   )
